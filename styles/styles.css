@@ -1,0 +1,57 @@
+.navbar {
+    height: 85px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-logo-img {
+    height: 60px;
+}
+
+.news-display {
+    height: 640px;
+    background-image: url('../assets/saturn-rings.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.news-display-gradient {
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+.news-main-content {
+    margin-left: 90px;
+    padding-top: 150px;
+    width: 1050px;
+    
+}
+
+.news-main-content h1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.news-main-content-text {
+    padding-top: 15px;
+    font-size: 1rem;
+}
+
+.news-btn-wrapper {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    height: 48px;
+    width: 220px;
+    margin-left: 90px;
+    background-color: #d83933;
+    border-radius: 0.25rem;
+    font-size: 22px;
+    font-weight: 800;
+}
