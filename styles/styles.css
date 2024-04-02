@@ -92,8 +92,8 @@
 
 .article-tittle {
     align-items: center;
-    margin-left: 300px;
-    margin-right: 390px;
+    margin-left: 200px;
+    margin-right: 200px;
     padding: 80px;
     display: flex;
     justify-content: space-between;
@@ -114,9 +114,41 @@
         cursor: pointer;
     }
 
-    .sign-button {
-        margin: 8px;
-        align-items: center;
+
+
+    button:hover .sign-button {
+        border: 1px solid #b50909;
+        background-color: #b50909;
+
+    }
+}
+
+.news-sub-content-display {
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+
+.sub-content-text {
+    margin-top: 15px;
+    font-size: .7rem;
+    font-weight: 200;
+    letter-spacing: 0.3rem;
+    font-family: "DM Mono";
+}
+
+
+.line {
+    filter: opacity(.3);
+    background-color: white;
+    width: 420px;
+    height: 0.2px;
+
+}
+
+.sign-button {
+    margin: 8px;
+    align-items: center;
         justify-content: center;
         display: flex;
         text-align: center;
@@ -132,13 +164,10 @@
         transform: rotate(-45deg);
     }
 
-    button:hover .sign-button {
-        border: 1px solid #b50909;
-        background-color: #b50909;
-
-    }
-
-    .nasa-news-button {
-        
-    }
+.sub-content-text-highlights {
+    display: flex;
+    line-height: center;
+    padding-top: 15px;
+    justify-content: left;
+    font-size: 16px;
 }
