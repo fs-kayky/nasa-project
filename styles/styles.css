@@ -52,6 +52,21 @@
     margin-left: 90px;
     background-color: #d83933;
     border-radius: 0.25rem;
-    font-size: 22px;
+}
+
+.news-btn-wrapper button {
+    cursor: pointer;
     font-weight: 800;
+    font-size: 22px;
+    border: none;
+    background: none;
+    color: white;
+    height: 48px;
+    width: 220px;
+    border-radius: 0.25rem;
+    transition: 1s;
+}
+
+.news-btn-wrapper button:hover {
+    background-color: #b50909;
 }
