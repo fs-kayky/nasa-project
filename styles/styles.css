@@ -1,3 +1,9 @@
+:root {
+    --news-display-height: 640px;
+    --article-display-height: 640px;
+    --nav-bar-height: 85px;
+}
+
 .navbar {
     height: 85px;
     background-color: black;
@@ -69,4 +75,70 @@
 
 .news-btn-wrapper button:hover {
     background-color: #b50909;
+}
+
+.article-display {
+    height: 750px;
+    background-color: #fff;
+    color: black;
+}
+
+
+.article-display2 {
+    height: 690px;
+    background-color: black;
+    color: white;
+}
+
+.article-tittle {
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 390px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        color: black;
+        font-size: 1.4rem;
+        background: none;
+        border: none;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .sign-button {
+        margin: 8px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        padding-bottom: 3px;
+        font-size: 10px;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        border: 1px solid #d83933;
+        background-color: #d83933;
+        color: white;
+        transition: 1s;
+        transform: rotate(-45deg);
+    }
+
+    button:hover .sign-button {
+        border: 1px solid #b50909;
+        background-color: #b50909;
+
+    }
+
+    .nasa-news-button {
+        
+    }
 }
